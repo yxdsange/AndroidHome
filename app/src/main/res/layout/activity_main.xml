@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_home_propeerty"
+        android:text="Android基本属性"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_home_net"
+        android:text="Android网络操作与数据存储"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_home_datatraffic"
+        android:text="Android数据通信"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_home_media"
+        android:text="Android多媒体"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        />
+
+
+</LinearLayout>
