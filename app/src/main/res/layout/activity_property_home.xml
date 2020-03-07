@@ -1,9 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".property.PropertyHomeActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_activity"
+                style="@style/btn_style"
+                android:text="Activity属性" />
+
+            <TextView
+                android:id="@+id/tv_view"
+                style="@style/btn_style"
+                android:text="View" />
+
+
+            <TextView
+                android:id="@+id/tv_linearlayout"
+                style="@style/btn_style"
+                android:text="布局" />
+
+
+            <TextView
+                android:id="@+id/tv_ui"
+                style="@style/btn_style"
+                android:text="UI基础控件" />
+
+            <TextView
+                android:id="@+id/tv_activity_pm"
+                style="@style/btn_style"
+                android:text="Activity管理" />
+
+            <TextView
+                android:id="@+id/tv_ui_map"
+                style="@style/btn_style"
+                android:text="Activity属性" />
+
+            <TextView
+                android:id="@+id/tv_ui_menu"
+                style="@style/btn_style"
+                android:text="Menu" />
+
+            <TextView
+                android:id="@+id/tv_ui_dialog"
+                style="@style/btn_style"
+                android:text="Dialog" />
+
+            <TextView
+                android:id="@+id/tv_activity_life"
+                style="@style/btn_style"
+                android:text="Activity生命周期" />
+
+            <TextView
+                android:id="@+id/tv_ui_fragment"
+                style="@style/btn_style"
+                android:text="Fragment" />
+
+
+            <TextView
+                android:id="@+id/tv_ui_travel"
+                style="@style/btn_style"
+                android:text="UI练习旅游Demo" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
